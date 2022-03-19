@@ -22,14 +22,6 @@ public class Persona {
     public String getAddress() {
         return address;
     }
-    
-    
-    /*
-    public void makeNoise() {
-        System.out.println("Make noise as an... animal?");
-    }
-    
-    */
     public void Person(String name, String address) {
         System.out.println("El nombre es: "+ this.name +"\n" + "y la direccion es: " + this.address ); 
     }
